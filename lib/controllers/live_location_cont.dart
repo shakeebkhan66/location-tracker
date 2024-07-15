@@ -92,11 +92,11 @@ class LocationController extends GetxController {
   Future<void> _loadArrowIcons() async {
     arrowIconSmall = await BitmapDescriptor.asset(
       ImageConfiguration.empty,
-      "assets/arrow_icon_small.png",
+      "assets/arrow_icon_medium.png",
     );
     arrowIconLarge = await BitmapDescriptor.asset(
       ImageConfiguration.empty,
-      "assets/arrow_icon.png",
+      "assets/arrow_icon_large.png",
     );
   }
 
